@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<h2 style="text-align:center;">STUDENT REGISTRATION FORM </h2><br>
+<form>
+<label>First Name:</label>
+<input type="text" name="fn">
+<label>Last Name:</label>
+<input type="text" name="ln">
+<br><br>
+<label>Gender:</label>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<br><br>
+DOB:<input type="date">
+<br><br>
+<label>Phone No:</label>
+<input type="tel" name="phno" maxlength="10">
+<br><br>
+<label>Email:</label>
+<input type="email" name="email">
+<br><br>
+Address:<textarea name="addres"></textarea>
+<br><br>
+Qualification:&nbsp<select name="qua">
+<option></option>
+<option>10th</option>
+<option>plus two</option>
+<option>Degree</option>
+</select>
+<br><br>
+Course:<select name="course">
+<option></option>
+<option>MCA Regular</option>
+<option>MCA Integrated</option>
+</select>
+<br>
+<br>
+Photo:<input type="file" name="photo">
+<br><br>
+Password
+<input type="password" name="pass"maxlength="6"><br>
+confirm Password
+<input type="password" name="pass"maxlength="6">
+<br><br>
+<input type="submit" value="OK">
+<input type="reset" value="CLEAR">
+</form>
+</body>
+</html>
